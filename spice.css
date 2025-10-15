@@ -1,0 +1,14 @@
+:root {
+  background: chartreuse;
+  background-image: radial-gradient(pink, plum, violet, orchid);
+  color: navy;
+}
+
+:any-link {
+  color: inherit;
+}
+
+::selection {
+  background: indigo;
+  color: skyblue;
+}
